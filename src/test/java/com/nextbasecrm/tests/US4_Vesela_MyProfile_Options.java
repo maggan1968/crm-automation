@@ -41,7 +41,7 @@ public class US4_Vesela_MyProfile_Options {
         List<WebElement> profileOptionsList = driver.findElements(By.xpath("//div[@class='menu-popup-items']/*"));
 
         List<String> expectedOptionsList = new ArrayList<>(Arrays.asList("My Profile","Edit Profile Settings","Themes",
-                "Configure notifications", "Logout"));
+                "Configure notifications", "Log out"));
         List<String>actualOptionsList = new ArrayList<>();
 
         int index=0;
@@ -54,7 +54,7 @@ public class US4_Vesela_MyProfile_Options {
     @AfterMethod
     public void tear_down() {
         driver.close();
-//
+
 
     }
 
