@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class US5_sendMessage {
+public class US5_Nurcan_sendMessage {
 
     public WebDriver driver;
 
