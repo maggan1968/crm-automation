@@ -1,4 +1,4 @@
-package com.nextbasecrm.tests.igor;
+package com.nextbasecrm.tests;
 
 import com.nextbasecrm.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class US_Igor_checkbox_remeber_me {
+public class US2_Igor_checkbox_remeber_me {
     WebDriver driver;
     String url = "https://login2.nextbasecrm.com"; //login page
 
