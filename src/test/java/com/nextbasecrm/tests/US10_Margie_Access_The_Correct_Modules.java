@@ -184,17 +184,9 @@ public class US10_Margie_Access_The_Correct_Modules {
 
         Assert.assertEquals(actualCompanyModule, expectedCompanyModule);
 
-    }
-    @Test
-    public void Modules(){
-        List<WebElement> Modules = driver.findElements(By.xpath("//ul[@class='menu-items']//li[@data-status='show']"));
-        for (WebElement each : Modules) {
-            //each.click();
-            // Assert.assertEquals(each.getText(), driver.getTitle());
-            // BrowserUtils.sleep(1);
-            System.out.println("each.getText() = " + each.getText());
+
         }
-    }
+
     @AfterMethod
     public void tearDownMethod(){
         driver.close();
