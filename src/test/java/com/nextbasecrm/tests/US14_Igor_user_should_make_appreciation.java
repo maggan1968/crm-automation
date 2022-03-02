@@ -1,4 +1,4 @@
-package com.nextbasecrm.tests.igor;
+package com.nextbasecrm.tests;
 
 import com.nextbasecrm.utilities.BrowserUtils;
 import com.nextbasecrm.utilities.CRM_Utilities;
